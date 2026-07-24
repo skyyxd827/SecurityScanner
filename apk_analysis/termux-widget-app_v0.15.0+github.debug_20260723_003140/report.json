@@ -1,0 +1,10 @@
+{
+  "scan_time": "2026-07-23 00:32:14",
+  "apk_name": "termux-widget-app_v0.15.0+github.debug",
+  "package_name": "15",
+  "version_code": "1001",
+  "version_name": "0.15.0",
+  "total_permissions": 2,
+  "dangerous_permissions": [],
+  "clamav_result": "OK"
+}

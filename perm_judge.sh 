@@ -1,0 +1,93 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# ========== 1. 输入检查 ==========
+TARGET="$1"
+if [ -z "$TARGET" ]; then
+    echo "❌ 用法: $0 <文件夹名>"
+    echo "示例: $0 MT2.26.7-clone-target28"
+    exit 1
+fi
+
+PERM_FILE="$HOME/apk_analysis/$TARGET/dangerous_perms.txt"
+INFO_FILE="$HOME/apk_analysis/$TARGET/info.txt"
+
+if [ ! -f "$PERM_FILE" ]; then
+    echo "❌ 找不到权限文件: $PERM_FILE"
+    exit 1
+fi
+
+# ========== 2. 智能提取包名 ==========
+PKG="未知"
+if [ -f "$INFO_FILE" ]; then
+    # 格式: package: name='bin.mt.plus' ...
+    PKG=$(grep "package: name=" "$INFO_FILE" | head -n 1 | sed "s/.*name='\([^']*\)'.*/\1/")
+    # 兜底格式: package: 'bin.mt.plus' ...
+    if [ -z "$PKG" ] || [ "$PKG" = "未知" ]; then
+        PKG=$(grep "package:" "$INFO_FILE" | head -n 1 | awk '{print $2}' | sed "s/'//g")
+    fi
+fi
+# 最终兜底：用文件夹名
+[ -z "$PKG" ] && PKG="($TARGET)"
+
+PKG_LOWER=$(echo "$PKG" | tr '[:upper:]' '[:lower:]')
+
+# ========== 3. 猜应用类型 ==========
+TYPE="通用"
+echo "$PKG_LOWER" | grep -qE "mt\.plus|mt2|manager|file" && TYPE="文件管理"
+echo "$PKG_LOWER" | grep -qE "calc|calculator" && TYPE="计算器"
+echo "$PKG_LOWER" | grep -qE "map|navi|location|amap|baidu" && TYPE="地图"
+echo "$PKG_LOWER" | grep -qE "camera|photo|cam|gallery" && TYPE="相机"
+echo "$PKG_LOWER" | grep -qE "msg|sms|chat|wechat|qq|messenger|telephony" && TYPE="通讯"
+echo "$PKG_LOWER" | grep -qE "input|keyboard|ime" && TYPE="输入法"
+
+# ========== 4. 权限判定函数 ==========
+judge() {
+    local perm="$1"
+    case "$perm" in
+        *REQUEST_INSTALL_PACKAGES*)
+            [ "$TYPE" = "文件管理" ] && echo "✅ 合理（文件管理需装包）" || echo "⚠️ 可装应用（评估必要性）" ;;
+        *READ_EXTERNAL_STORAGE*|*WRITE_EXTERNAL_STORAGE*)
+            ([ "$TYPE" = "文件管理" ] || [ "$TYPE" = "相机" ]) && echo "✅ 合理（读写存储）" || echo "⚠️ 存储权限（评估必要性）" ;;
+        *READ_SMS*|*RECEIVE_SMS*|*SEND_SMS*)
+            [ "$TYPE" = "通讯" ] && echo "✅ 合理（通讯需读信）" || echo "❌ 异常（非通讯类索要短信）" ;;
+        *RECORD_AUDIO*)
+            echo "❌ 异常（索要录音权限）" ;;
+        *ACCESS_FINE_LOCATION*|*ACCESS_COARSE_LOCATION*)
+            [ "$TYPE" = "地图" ] && echo "✅ 合理（定位导航）" || echo "⚠️ 慎用（索要定位）" ;;
+        *CAMERA*)
+            [ "$TYPE" = "相机" ] && echo "✅ 合理（拍照）" || echo "❌ 异常（非相机类索要相机）" ;;
+        *)
+            echo "⚠️ 未分类权限" ;;
+    esac
+}
+
+# ========== 5. 输出报告 ==========
+clear
+echo "========================================"
+echo "🔍 权限翻译报告"
+echo "========================================"
+echo "📦 包名   : $PKG"
+echo "🏷️  类型   : $TYPE"
+echo ""
+echo "📋 高危权限结论："
+echo "----------------------------------------"
+
+if [ -s "$PERM_FILE" ]; then
+    while IFS= read -r line; do
+        # 提取权限名
+        perm=$(echo "$line" | sed -n "s/.*\(android\.permission\.[A-Z_]*\).*/\1/p" | head -n 1)
+        [ -z "$perm" ] && perm=$(echo "$line" | grep -o "android\.permission\.[A-Z_]*" | head -n 1)
+
+        if [ -n "$perm" ]; then
+            result=$(judge "$perm")
+            emoji=$(echo "$result" | cut -d' ' -f1)
+            msg=$(echo "$result" | cut -d' ' -f2-)
+            printf "%-4s %-40s %s\n" "$emoji" "$perm" "$msg"
+        fi
+    done < "$PERM_FILE"
+else
+    echo "(无高危权限记录)"
+fi
+
+echo "========================================"
+

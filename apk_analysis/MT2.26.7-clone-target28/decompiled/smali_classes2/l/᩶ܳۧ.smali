@@ -1,0 +1,8 @@
+.class public interface abstract Ll/᩶ܳۧ;
+.super Ljava/lang/Object;
+.source "P900"
+
+
+# virtual methods
+.method public abstract ᩵(Landroid/view/View;Ljava/lang/String;)V
+.end method

@@ -1,0 +1,10 @@
+{
+  "scan_time": "2026-07-23 00:31:00",
+  "apk_name": "termux-api-app_v0.53.0+github.debug (1)",
+  "package_name": "15",
+  "version_code": "1002",
+  "version_name": "0.53.0",
+  "total_permissions": 35,
+  "dangerous_permissions": ["android.permission.READ_SMS","android.permission.SEND_SMS","android.permission.READ_CONTACTS","android.permission.ACCESS_FINE_LOCATION","android.permission.RECORD_AUDIO","android.permission.CAMERA","android.permission.READ_PHONE_STATE","android.permission.CALL_PHONE","android.permission.REQUEST_INSTALL_PACKAGES"],
+  "clamav_result": "OK"
+}

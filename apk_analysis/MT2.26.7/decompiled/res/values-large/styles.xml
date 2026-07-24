@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_RENAMED_0x7f13006b" parent="@style/APKTOOL_RENAMED_0x7f130069" />
+    <style name="APKTOOL_RENAMED_0x7f130072" parent="@style/APKTOOL_RENAMED_0x7f130070" />
+    <style name="APKTOOL_RENAMED_0x7f130077" parent="@style/APKTOOL_RENAMED_0x7f130076" />
+    <style name="APKTOOL_RENAMED_0x7f13007d" parent="@style/APKTOOL_RENAMED_0x7f13007c" />
+    <style name="APKTOOL_RENAMED_0x7f130087" parent="@style/APKTOOL_RENAMED_0x7f130085" />
+    <style name="APKTOOL_RENAMED_0x7f130091" parent="@style/APKTOOL_RENAMED_0x7f13008f" />
+</resources>

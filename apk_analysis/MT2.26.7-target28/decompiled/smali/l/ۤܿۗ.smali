@@ -1,0 +1,14 @@
+.class public interface abstract Ll/ۤܿۗ;
+.super Ljava/lang/Object;
+.source "ZC2D"
+
+# interfaces
+.implements Ll/᩺ᩴۙ;
+
+
+# virtual methods
+.method public abstract nextFloat()F
+.end method
+
+.method public abstract ۡ(Ll/᩷ܿۗ;)V
+.end method

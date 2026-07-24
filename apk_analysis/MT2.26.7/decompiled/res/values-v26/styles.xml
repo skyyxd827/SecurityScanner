@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_RENAMED_0x7f130065" parent="@style/APKTOOL_RENAMED_0x7f1300cf" />
+    <style name="APKTOOL_RENAMED_0x7f13006c" parent="@style/APKTOOL_RENAMED_0x7f1300d0" />
+    <style name="APKTOOL_RENAMED_0x7f1300cf" parent="@style/APKTOOL_RENAMED_0x7f1300c9">
+        <item name="APKTOOL_RENAMED_0x7f0400ff">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1300d0" parent="@style/APKTOOL_RENAMED_0x7f1300ca">
+        <item name="APKTOOL_RENAMED_0x7f0400ff">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f1300d1" parent="@style/APKTOOL_RENAMED_0x7f1300db">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="APKTOOL_RENAMED_0x7f130114" parent="@style/APKTOOL_RENAMED_0x7f1300d1" />
+    <style name="APKTOOL_RENAMED_0x7f1303a1" parent="@android:style/Widget">
+        <item name="android:background">?APKTOOL_RENAMED_0x7f04011a</item>
+        <item name="android:stateListAnimator">@animator/APKTOOL_RENAMED_0x7f020003</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

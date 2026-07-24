@@ -1,0 +1,63 @@
+.class public final Ll/ۧᩴ᩺;
+.super Ljava/lang/Object;
+.source "789S"
+
+# interfaces
+.implements Ll/۟ۢ᩺;
+
+
+# instance fields
+.field public final ۜ:Ll/ۤۚܳ;
+
+.field public final ۡ:Ll/۬۠ܳ;
+
+
+# direct methods
+.method public constructor <init>(Ll/ۤۚܳ;Ll/۬۠ܳ;)V
+    .locals 0
+
+    .line 1643
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1644
+    iput-object p1, p0, Ll/ۧᩴ᩺;->ۜ:Ll/ۤۚܳ;
+
+    .line 1645
+    iput-object p2, p0, Ll/ۧᩴ᩺;->ۡ:Ll/۬۠ܳ;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final ۜ()J
+    .locals 2
+
+    .line 1650
+    iget-object v0, p0, Ll/ۧᩴ᩺;->ۜ:Ll/ۤۚܳ;
+
+    iget-object v1, p0, Ll/ۧᩴ᩺;->ۡ:Ll/۬۠ܳ;
+
+    invoke-virtual {v0, v1}, Ll/ۤۚܳ;->ۜ(Ll/۬۠ܳ;)J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public final ۡ()V
+    .locals 2
+
+    .line 1656
+    :try_start_0
+    iget-object v0, p0, Ll/ۧᩴ᩺;->ۡ:Ll/۬۠ܳ;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Ll/۬۠ܳ;->cancel(Z)Z
+    :try_end_0
+    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    return-void
+.end method

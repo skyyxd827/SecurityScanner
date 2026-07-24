@@ -1,0 +1,83 @@
+.class public final synthetic Ll/۬ۜۘ;
+.super Ljava/lang/Object;
+.source "H7I0"
+
+# interfaces
+.implements Ll/۟᩷ۘ;
+
+
+# virtual methods
+.method public final synthetic negate()Ll/ۢۧۘ;
+    .locals 1
+
+    .line 0
+    invoke-static {p0}, Ll/ܰ᩷ۘ;->᩵(Ll/۟᩷ۘ;)Ll/ۢۧۘ;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final ֨(Ll/۟᩷ۘ;)Ll/۟᩷ۘ;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 7840
+    invoke-static {p0, p1, v0}, Ll/ܿᩴۘ;->᩵(Ll/۟᩷ۘ;Ll/۟᩷ۘ;Z)Ll/۟᩷ۘ;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final ᩵(Ll/۟᩷ۘ;)Ll/۟᩷ۘ;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 7844
+    invoke-static {p0, p1, v0}, Ll/ܿᩴۘ;->֨(Ll/۟᩷ۘ;Ll/۟᩷ۘ;Z)Ll/۟᩷ۘ;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final ᩵(I)Z
+    .locals 1
+
+    .line 389
+    invoke-static {p1}, Ljava/lang/Character;->isUpperCase(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    .line 390
+    invoke-static {p1}, Ljava/lang/Character;->isLowerCase(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    .line 391
+    invoke-static {p1}, Ljava/lang/Character;->isTitleCase(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return p1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    return p1
+.end method

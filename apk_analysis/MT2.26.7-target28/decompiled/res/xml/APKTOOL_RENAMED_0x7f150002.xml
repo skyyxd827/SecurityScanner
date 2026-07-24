@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l.ۤܽۡ android:title="@string/APKTOOL_RENAMED_0x7f12088a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f120903" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1207f5" android:key="get_root" android:summary="@string/APKTOOL_RENAMED_0x7f1207f6" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1207f7" android:key="get_adb" android:summary="@string/APKTOOL_RENAMED_0x7f1207f8" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۤᩴۡ android:title="@string/APKTOOL_RENAMED_0x7f120210" android:key="custom_su_command" android:summary="@string/APKTOOL_RENAMED_0x7f120211" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ᩴ۬ۨ android:title="@string/APKTOOL_RENAMED_0x7f12047f" android:key="install_shizuku" android:summary="https://shizuku.rikka.app/" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֡֫ۡ android:entries="@array/APKTOOL_RENAMED_0x7f03001f" android:title="@string/APKTOOL_RENAMED_0x7f1204e5" android:key="load_path_left" android:defaultValue="0" android:entryValues="@array/APKTOOL_RENAMED_0x7f030001" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֡֫ۡ android:entries="@array/APKTOOL_RENAMED_0x7f03001f" android:title="@string/APKTOOL_RENAMED_0x7f1204e6" android:key="load_path_right" android:defaultValue="0" android:entryValues="@array/APKTOOL_RENAMED_0x7f030001" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f1200cd" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.۠۬ۨ android:title="@string/APKTOOL_RENAMED_0x7f1204d8" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ܰۜۧ android:title="@string/APKTOOL_RENAMED_0x7f120979" android:key="theme" android:summary="@string/APKTOOL_RENAMED_0x7f12097a" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֡֫ۡ android:entries="@array/APKTOOL_RENAMED_0x7f030012" android:title="@string/APKTOOL_RENAMED_0x7f12038b" android:key="file_list_size" android:defaultValue="1" android:entryValues="@array/MT_Protector" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֡֫ۡ android:entries="@array/MT_Protector" android:title="@string/APKTOOL_RENAMED_0x7f120395" android:key="file_name_max_line" android:defaultValue="2" android:entryValues="@array/MT_Protector" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۡ۬ۨ android:title="@string/APKTOOL_RENAMED_0x7f12038c" android:key="fltp" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1202ab" android:key="disable_permission_in_list" android:defaultValue="false" android:summaryOn="@string/APKTOOL_RENAMED_0x7f1202ad" android:summaryOff="@string/APKTOOL_RENAMED_0x7f1202ac" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֡֫ۡ android:entries="@array/APKTOOL_RENAMED_0x7f03000a" android:title="@string/APKTOOL_RENAMED_0x7f12021b" android:key="date_time_format" android:defaultValue="0" android:entryValues="@array/APKTOOL_RENAMED_0x7f030001" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f12019a" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1203ec" android:key="generate_backup_file" android:defaultValue="true" android:summaryOn="@string/APKTOOL_RENAMED_0x7f1203ed" android:summaryOff="@string/APKTOOL_RENAMED_0x7f1203ed" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120711" android:key="preserve_file_time" android:defaultValue="true" android:summaryOn="@string/APKTOOL_RENAMED_0x7f120713" android:summaryOff="@string/APKTOOL_RENAMED_0x7f120712" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120628" android:key="show_input_fav" android:summary="@string/APKTOOL_RENAMED_0x7f120629" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۨ۬ۨ android:title="@string/APKTOOL_RENAMED_0x7f120390" android:summary="@string/APKTOOL_RENAMED_0x7f1201ad" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩹ۘۨ android:title="@string/APKTOOL_RENAMED_0x7f120146" android:summary="@string/APKTOOL_RENAMED_0x7f1201ad" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֨ۘۨ android:title="@string/APKTOOL_RENAMED_0x7f12020a" android:key="mt2_path" android:summary="@string/APKTOOL_RENAMED_0x7f12020b" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f120758" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1202e4" android:key="enable_recycle_bin" android:summary="@string/APKTOOL_RENAMED_0x7f1202e5" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1205bb" android:key="def_mov_recycle_bin" android:summary="@string/APKTOOL_RENAMED_0x7f1205bc" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۙۘۨ android:title="@string/APKTOOL_RENAMED_0x7f1200ff" android:key="auto_clean_recycle_bin" android:defaultValue="0" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1202d9" android:key="deletion_warning" android:summary="@string/APKTOOL_RENAMED_0x7f1202da" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f120054" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120063" android:key="apk_installation_verify" android:summary="@string/APKTOOL_RENAMED_0x7f120062" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120059" android:key="apk_installation_prevents_deletion" android:summary="@string/APKTOOL_RENAMED_0x7f12005a" android:defaultValue="false" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1202b9" android:key="apk_installation_confirm" android:summary="@string/APKTOOL_RENAMED_0x7f1202ba" android:defaultValue="false" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f12005f" android:key="apk_installation_shizuku" android:summary="@string/APKTOOL_RENAMED_0x7f120060" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120055" android:key="apk_installation_dhizuku" android:summary="@string/APKTOOL_RENAMED_0x7f120056" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f12005d" android:key="apk_installation_root" android:summary="@string/APKTOOL_RENAMED_0x7f12005e" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۘۘۨ android:title="@string/APKTOOL_RENAMED_0x7f12020e" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.۠֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f12005b" android:key="apk_installation_priority" android:summary="@string/APKTOOL_RENAMED_0x7f12005c" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f120124" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1208a8" android:key="show_bookmarks_in_sidebar" android:summary="@string/APKTOOL_RENAMED_0x7f1208a9" android:defaultValue="false" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f12011d" android:key="bookmark_add_to_top" android:defaultValue="true" android:summaryOn="@string/APKTOOL_RENAMED_0x7f12011f" android:summaryOff="@string/APKTOOL_RENAMED_0x7f12011e" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120120" android:key="bookmark_swipe_pos_aware" android:defaultValue="false" android:summaryOn="@string/APKTOOL_RENAMED_0x7f120122" android:summaryOff="@string/APKTOOL_RENAMED_0x7f120121" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.֡֫ۡ android:entries="@array/APKTOOL_RENAMED_0x7f030008" android:title="@string/APKTOOL_RENAMED_0x7f120126" android:key="bottom_toolbar_padding_type" android:summary="@string/APKTOOL_RENAMED_0x7f120129" android:defaultValue="0" android:entryValues="@array/APKTOOL_RENAMED_0x7f030001" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩷۬ۨ android:title="@string/APKTOOL_RENAMED_0x7f120127" android:key="bottom_toolbar_padding_bottom" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f120346" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1209d3" android:key="use_external_storage_api" android:summary="@string/APKTOOL_RENAMED_0x7f1209d4" android:defaultValue="@bool/APKTOOL_RENAMED_0x7f050006" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1204e8" android:key="external_storage_thumb_enable" android:summary="@string/APKTOOL_RENAMED_0x7f1204e9" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f12069d" android:key="optimize_external_storage_dt" android:summary="@string/APKTOOL_RENAMED_0x7f12069e" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f12063f" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f1204e7" android:key="network_thumb_enable" android:summary="@string/APKTOOL_RENAMED_0x7f1204e4" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩺ᩳۡ android:title="@string/APKTOOL_RENAMED_0x7f120686" android:key="network_thumb_only_load_on_wifi" android:summary="@string/APKTOOL_RENAMED_0x7f120687" android:defaultValue="true" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩸۬ۨ android:title="@string/APKTOOL_RENAMED_0x7f120437" android:key="network_thumb_image_file_size_limit" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ᩴۜۧ android:title="@string/APKTOOL_RENAMED_0x7f1204eb" android:key="network_thumb_time_limit" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f120182" android:key="cloudBackup" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.ۢۘۨ android:title="@string/APKTOOL_RENAMED_0x7f120189" android:summary="@string/APKTOOL_RENAMED_0x7f120191" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۖۜۧ android:title="@string/APKTOOL_RENAMED_0x7f120185" android:summary="@string/APKTOOL_RENAMED_0x7f120187" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+    <l.᩹֫ۡ android:title="@string/APKTOOL_RENAMED_0x7f1206a1" app:APKTOOL_RENAMED_0x7f04026c="false">
+        <l.֡֫ۡ android:entries="@array/APKTOOL_RENAMED_0x7f03001b" android:title="@string/APKTOOL_RENAMED_0x7f1204b6" android:key="custom_language" android:defaultValue="auto" android:entryValues="@array/APKTOOL_RENAMED_0x7f03001c" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.᩷ۘۨ android:title="@string/APKTOOL_RENAMED_0x7f12015c" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.ۗۘۨ android:title="@string/APKTOOL_RENAMED_0x7f120025" android:summary="@string/APKTOOL_RENAMED_0x7f120026" app:APKTOOL_RENAMED_0x7f04026c="false" />
+        <l.۠֫ۡ android:title="备案编号" android:summary="苏ICP备19064627号-5A" app:APKTOOL_RENAMED_0x7f04026c="false" app:APKTOOL_RENAMED_0x7f040283="@bool/APKTOOL_RENAMED_0x7f050005" />
+        <l.ᩳۜۧ android:title="@string/APKTOOL_RENAMED_0x7f1209e0" android:summary="@string/APKTOOL_RENAMED_0x7f1209e3" app:APKTOOL_RENAMED_0x7f04026c="false" />
+    </l.᩹֫ۡ>
+</l.ۤܽۡ>

@@ -1,0 +1,19 @@
+.class public final Ll/۬ܰۛ;
+.super Ljava/lang/Object;
+.source "3AYS"
+
+
+# instance fields
+.field public ֡:F
+
+.field public ۖ:Z
+
+.field public ۛ:F
+
+.field public ۜ:Z
+
+.field public ۡ:Z
+
+.field public ۨ:Z
+
+.field public ᩺:Z
