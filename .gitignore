@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# Termux / 本地环境
+.cache/
+.local/
+.termux/
+.嘘/
+.捷径/
+
+# Shell
+.bash_history
+.bashrc
+.gitconfig
+
+# 备份文件
+*.bak
+EOF
+
